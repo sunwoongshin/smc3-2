@@ -6,13 +6,13 @@ public class Sum {
 		Scanner scan = new Scanner(System.in);
 		int a,b = 0;
 		int sum = 0;
-		System.out.println("Ã³À½ ¼ıÀÚ : ");
+		System.out.println("ì²˜ìŒ ìˆ«ì : ");
 		a = scan.nextInt();
-		System.out.println("¸¶Áö¸· ¼ıÀÚ : ");
+		System.out.println("ë§ˆì§€ë§‰ ìˆ«ì : ");
 		b = scan.nextInt();
 		for(int i = a; i <= b; i++) {
 			sum += i;
 		}
-		System.out.println(a + "ºÎÅÍ " + b + "±îÁöÀÇ ÇÕÀº " + sum);
+		System.out.println(a + "ë¶€í„° " + b + "ê¹Œì§€ì˜ í•©ì€ " + sum);
 	}
 }
