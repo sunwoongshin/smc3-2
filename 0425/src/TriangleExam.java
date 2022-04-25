@@ -1,9 +1,9 @@
 public class TriangleExam {
 	public static void main(String[] args) {
 		Triangle tr = new Triangle(10.2, 17.3);
-		System.out.println("»ï°¢ÇüÀÇ ³ĞÀÌ: "+ tr.getArea());
+		System.out.println("ì‚¼ê°í˜•ì˜ ë„“ì´: "+ tr.getArea());
 		tr.setSize(7.5 , 9.2);
-		System.out.println("»ï°İÇüÀÇ ³ĞÀÌ: "+ tr.getArea());
+		System.out.println("ì‚¼ê²©í˜•ì˜ ë„“ì´: "+ tr.getArea());
 	}
 }
 class Triangel {
@@ -20,3 +20,4 @@ class Triangel {
 	public double getArea() {
 		return bottom*height/2;
 	}
+}
