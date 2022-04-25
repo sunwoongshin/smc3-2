@@ -6,7 +6,7 @@ public class TriangleExam {
 		System.out.println("삼격형의 넓이: "+ tr.getArea());
 	}
 }
-class Triangel {
+class Triangle {
 	double bottom;
 	double height;
 	double Triangle(double bt, double hg) {
