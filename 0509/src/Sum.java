@@ -5,19 +5,16 @@ public class Sum {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int a,b = 0;		// ½ÃÀÛ, ¸¶Áö¸· ¼ıÀÚ
-		int sum = 0; 		// ÇÕ°è		
-		System.out.println("½ÃÀÛ ¼ıÀÚ: ");
+		int a,b = 0;		// ì‹œì‘, ë§ˆì§€ë§‰ ìˆ«ì
+		int sum = 0; 		// í•©ê³„		
+		System.out.println("ì‹œì‘ ìˆ«ì: ");
 		a = scan.nextInt();
-		System.out.println("¸¶Áö¸· ¼ıÀÚ: ");
+		System.out.println("ë§ˆì§€ë§‰ ìˆ«ì: ");
 		b = scan.nextInt();
 	
 		for(int i=a; i<=b; i++) {
 			sum += i;		// sum = sum+i;
 		}
-		
-		System.out.println(a + "ºÎÅÍ " + b + "±îÁöÀÇ ÇÕÀº " + sum);
-
+		System.out.println(a + "ë¶€í„° " + b + "ê¹Œì§€ì˜ í•©ì€ " + sum);
 	}
-
 }
